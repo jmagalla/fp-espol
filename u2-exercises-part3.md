@@ -2,17 +2,17 @@
 
 ## Ejercicio 1
 
-Escriba una función de nombre `cambiar_pal(palabra, caracter)` que recibe dos cadenas. La primera es la `palabra` a cambiar y la segunda es el `caracter` de reemplazo. La función debe retornar la palabra cambiada de la siguiente manera: dada la primera letra de la `palabra` cambiar las siguientes letras que coincidan con la primera por el `caracter` de reemplazo. Ejemplos de la llamada a la función: 
+Escriba una función llamada `cambiar_frase(frase, caracter)` que recibe dos cadenas como argumentos. La primera cadena representa a la `frase` que se va a modificar y la segunda cadena es el `caracter` de reemplazo. La función debe retornar la frase modificada de tal manera que, a partir de la primera letra de la `frase` todas las ocurrencias siguientes de esta letra se sustituyan por el `caracter` de reemplazo. Ejemplos de la llamada a la función: 
 
 ```
-cambiar_pal("babero bonito", "+") -> "ba+ero +onito"
-cambiar_pal("coca cola", "#") -> "co#a #ola"
-cambiar_pal("ardilla", "$") -> "ardill$"
+cambiar_frase("babero bonito", "+") -> "ba+ero +onito"
+cambiar_frase("coca cola", "#") -> "co#a #ola"
+cambiar_frase("ardilla", "$") -> "ardill$"
 ```
 
 ## Ejercicio 2
 
-Escriba una función `mezclar_palabras(a, b)` que recibe dos cadenas `a` y `b`. La función debe retornar una sola cadena concatenando `a` y `b` separadas por un espacio, pero intercambie los primeros caracteres de cada cadena. Ejemplos de la llamada a la función:
+Escriba una función `mezclar_palabras(a, b)` que recibe dos cadenas `a` y `b`. La función debe devolver una nueva cadena en la que se concatenen `a` y `b`, separadas por un espacio, pero intercambiando los primeros caracteres de cada cadena. A continuación se muestran ejemplos de la llamada a la función:
 
 ```
 mezclar_palabras("mix", "pod") -> "pox mid"
