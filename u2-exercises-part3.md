@@ -1,6 +1,6 @@
 # u2: Ejercicios con con Cadenas, Listas y Funciones
 
-## Ejercicio 1: Cálculo del Módulo de un Vector en \(\mathbb{R}^3\)
+## Ejercicio: Cálculo del Módulo de un Vector en \(\mathbb{R}^3\)
 
 Escribe un programa que realice lo siguiente:
 
@@ -26,9 +26,6 @@ Escribe un programa que realice lo siguiente:
    El módulo de v2 en el plano z=30 es ##.##
    El módulo de v3 en el plano z=100 es ##.##
    ```
-
----
-
 
 ## Ejercicio 2
 
