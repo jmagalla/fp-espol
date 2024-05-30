@@ -1,24 +1,22 @@
 # u2: Ejercicios con Cadenas, Listas y Funciones
 
-## Ejercicio 1: Cálculo del Módulo de un Vector en \(\mathbb{R}^3\)
+## Ejercicio 1: Cálculo del Módulo de un Vector en ![alt text](imageR3.png)
 
-1. Defina una función llamada `calcular_norma(x, y, z)` que tome las coordenadas \(x\) e \(y\) y \(z\) del vector para calcular la norma del vector en \(\mathbb{R}^3\) usando la fórmula:
-   \[
-   \|v\| = \sqrt{x^2 + y^2 + z^2}
-   \]
+1. Defina una función llamada `calcular_norma(x, y, z)` que tome las coordenadas `x` e `y` y `z` del vector para calcular la norma del vector en ![alt text](imageR3.png) usando la fórmula:
+   ![alt text](image-norma.png)
 
 2. Escribe un programa principal que realice lo siguiente:
 
-   - Solicite al usuario las coordenadas \(x\) e \(y\) del vector, como se muestra (en una sola línea):
+   - Solicite al usuario las coordenadas `x` e `y` del vector, como se muestra (en una sola línea):
       ```
       Ingrese las coordenadas x, y del vector: 25 100
       ```
-      No use `split()`, use `find()` y slicing para obtener los valores de \(x\) e \(y\).
+      No use `split()`, use `find()` y slicing para obtener los valores de `x` e `y`.
 
-   - Invoque la función para calcular el módulo de tres vectores \(v1\), \(v2\) y \(v3\) para las coordenadas ingresadas por el usuario y los valores de \(z\) que se muestran a continuación:   
-      - \(z = 3\)
-      - \(z = 30\)
-      - \(z = 100\)
+   - Invoque la función para calcular el módulo de tres vectores `v1`, `v2` y `v3` para las coordenadas ingresadas por el usuario y los valores de `z` que se muestran a continuación:   
+      - `z = 3`
+      - `z = 30`
+      - `z = 100`
 
    - Finalmente, muestre el resultado de la norma de los 3 vectores con dos dígitos en la parte decimal, como se muestra:
       ```
