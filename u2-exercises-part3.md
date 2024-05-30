@@ -3,6 +3,7 @@
 ## Ejercicio 1: Cálculo del Módulo de un Vector en ![alt text](imageR3.png)
 
 1. Defina una función llamada `calcular_norma(x, y, z)` que tome las coordenadas `x` e `y` y `z` del vector para calcular la norma del vector en ![alt text](imageR3.png) usando la fórmula:
+
    ![alt text](image-norma.png)
 
 2. Escribe un programa principal que realice lo siguiente:
