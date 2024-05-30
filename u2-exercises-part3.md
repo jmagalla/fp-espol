@@ -9,22 +9,22 @@
 
 2. Escribe un programa principal que realice lo siguiente:
 
-   1. Solicite al usuario las coordenadas \(x\) e \(y\) del vector, como se muestra (en una sola línea):
+   - Solicite al usuario las coordenadas \(x\) e \(y\) del vector, como se muestra (en una sola línea):
       ```
       Ingrese las coordenadas x, y del vector: 25 100
       ```
-   No use `split()`, use `find()` y slicing para obtener los valores de \(x\) e \(y\).
+      No use `split()`, use `find()` y slicing para obtener los valores de \(x\) e \(y\).
 
-   2. Invoque a la función para calcular el módulo de tres vectores \(v1\), \(v2\) y \(v3\) para los valores de \(z\) que se muestran a continuación:
+   - Invoque la función para calcular el módulo de tres vectores \(v1\), \(v2\) y \(v3\) para las coordenadas ingresadas por el usuario y los valores de \(z\) que se muestran a continuación:   
       - \(z = 3\)
       - \(z = 30\)
       - \(z = 100\)
 
-   3. Finalmente, muestre el resultado de la norma de los 3 vectores con dos dígitos en la parte decimal:
+   - Finalmente, muestre el resultado de la norma de los 3 vectores con dos dígitos en la parte decimal, como se muestra:
       ```
-      El módulo de v1 en el plano z=3 es ##.##
-      El módulo de v2 en el plano z=30 es ##.##
-      El módulo de v3 en el plano z=100 es ##.##
+      El módulo del vector en el plano z=3 es ##.##
+      El módulo del vector en el plano z=30 es ##.##
+      El módulo del vector en el plano z=100 es ##.##
       ```
 
 ## Ejercicio 2
