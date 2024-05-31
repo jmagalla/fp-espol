@@ -28,7 +28,7 @@
 
 ## Ejercicio 2
 
-Escriba una función llamada `cambiar_frase(frase, caracter)` que recibe dos cadenas como argumentos. La primera cadena representa a la `frase` que se va a modificar y la segunda cadena es el `caracter` de reemplazo. La función debe retornar la frase modificada de tal manera que, a partir de la primera letra de la `frase` todas las ocurrencias siguientes de esta letra se sustituyan por el `caracter` de reemplazo. Ejemplos de la llamada a la función: 
+Escriba una función llamada `cambiar_frase(frase, caracter)` que recibe dos cadenas como argumentos. La primera cadena representa a la `frase` que se va a modificar y la segunda cadena es el `caracter` de reemplazo. La función debe retornar la frase modificada de tal manera que, dada la primera letra de la `frase` cambiar todas las ocurrencias siguientes de esta por el `caracter` de reemplazo. Ejemplos de la llamada a la función: 
 
 ```
 cambiar_frase("babero bonito", "+") -> "ba+ero +onito"
@@ -38,7 +38,7 @@ cambiar_frase("ardilla", "$") -> "ardill$"
 
 ## Ejercicio 3
 
-Escriba una función `mezclar_palabras(a, b)` que recibe dos cadenas `a` y `b`. La función debe devolver una nueva cadena en la que se concatenen `b` y `a`, separadas por un espacio, pero intercambiando los dos últimos caracteres de cada cadena. A continuación se muestran ejemplos de la llamada a la función:
+Escriba una función `mezclar_palabras(a, b)` que recibe dos cadenas `a` y `b`. Esta función debe retornar una nueva cadena que resulte de concatenar b y a en ese orden, separadas por un espacio. Además, los dos últimos caracteres de cada cadena deben ser intercambiados antes de la concatenación. A continuación se muestran ejemplos de la llamada a la función:
 
 ```
 mezclar_palabras("mix", "pod") -> "pox mid"
