@@ -1,11 +1,9 @@
-Aquí tienes el ejercicio rediseñado y dividido en tareas para que los estudiantes puedan implementarlo paso a paso.
+# Ejercicio: Control de Multas de Tránsito con NumPy
 
-### Ejercicio: Control de Multas de Tránsito con NumPy
-
-#### Objetivo:
+## Objetivo:
 Implementar un programa que utilice funciones para resolver cálculos de multas de tránsito en una ciudad utilizando arreglos de NumPy y listas de Python.
 
-#### Descripción:
+## Descripción:
 La ciudad será representada por una matriz de 5x5, dividida en cuadrantes y sectores. Cada celda de la matriz representa un cuadrante y cada sector agrupa varios cuadrantes. Cada cuadrante registrará el total de multas generadas en ese cuadrante. 
 
 ```
@@ -23,9 +21,9 @@ En el ejemplo de arriba se observa que los sectores están distribuidos de la si
 * Este: columna 4
 * Sur: fila 4
 
-### Tareas:
+## Tareas:
 
-#### Tarea 1: Generación de la Matriz de Multas
+### Tarea 1: Generación de la Matriz de Multas
 1. Implementar una función `generaMatriz(listaMultas)` que reciba una lista de listas y retorne una matriz de NumPy de 5x5.
     - Cada lista dentro de la lista principal tiene 3 elementos `[fila, columna, multa]`.
     - `fila` y `columna` indican la posición del cuadrante en la matriz y `multa` es el valor de la multa en ese cuadrante.
@@ -61,13 +59,15 @@ matriz = np.array(
     [  0,   0, 330,   0,   0],
     [ 43,   0,   0,   0,   0],
     [  0,   0,  21,   0, 123],
-    [  0,   0,  62,   0,  89]], 
+    [  0,   0,  62,   0,  89]])
+sectores = np.array( 
     [['Norte', 'Norte', 'Norte', 'Norte', 'Norte'],
     ['Oeste', 'Centro', 'Centro', 'Centro', 'Este'],
     ['Oeste', 'Centro', 'Centro', 'Centro', 'Este'],
     ['Oeste', 'Centro', 'Centro', 'Centro', 'Este'],
     ['Sur', 'Sur', 'Sur', 'Sur', 'Sur']]
     )
+salida = sectorTop(matriz, sectores)
 ```
 
 Ejemplo de salida:
