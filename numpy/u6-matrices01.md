@@ -48,7 +48,7 @@ array([[290,   0,   0,  25,   0],
        [  0,   0,  62,   0,  89]])
 ```
 
-#### Tarea 2: Identificación del Sector con Más Multas
+### Tarea 2: Identificación del Sector con Más Multas
 2. Implementar una función `sectorTop(matriz_multas, matriz_sectores)` que reciba la matriz de multas generada en la Tarea 1 y la matriz de sectores que se indica en la descripción. La función debe retornar una lista con el nombre del sector con el valor total de multas más alto y dicho valor.
 
 
@@ -75,7 +75,7 @@ Ejemplo de salida:
 ['Centro', 394]
 ```
 
-#### Tarea 3: Programa Principal
+### Tarea 3: Programa Principal
 3. Crear un programa principal que realice las siguientes acciones:
     - Llame a la función `generaMatriz(listaMultas)` con una lista de multas y obtenga la matriz de multas.
     - Llame a la función `sectorTop(matriz)` con la matriz de multas generada.
