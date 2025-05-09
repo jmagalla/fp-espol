@@ -1,4 +1,4 @@
-# u2: Ejercicios con Cadenas, Listas y Funciones
+# u23t1: Ejercicios con Cadenas, Listas y Funciones
 
 ## Ejercicio 1: Cálculo del Módulo de un Vector en ![alt text](imageR3.png)
 
