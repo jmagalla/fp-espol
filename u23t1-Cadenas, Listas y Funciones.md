@@ -38,7 +38,7 @@ cambiar_frase("ardilla", "$") -> "ardill$"
 
 ## Ejercicio 3
 
-Escriba una función `mezclar_palabras(a, b)` que recibe dos cadenas `a` y `b`. Esta función debe retornar una nueva cadena que resulte de concatenar b y a en ese orden, separadas por un espacio. Además, los dos últimos caracteres de cada cadena deben ser intercambiados antes de la concatenación. A continuación se muestran ejemplos de la llamada a la función:
+Escriba una función `mezclar_palabras(a, b)` que recibe dos cadenas `a` y `b`. Esta función debe retornar una nueva cadena que resulte de concatenar a y b en ese orden, separadas por un espacio. Además, los dos primeros caracteres de cada cadena deben ser intercambiados antes de la concatenación. A continuación se muestran ejemplos de la llamada a la función:
 
 ```
 mezclar_palabras("mix", "pod") -> "pox mid"
