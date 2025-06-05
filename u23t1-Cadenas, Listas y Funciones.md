@@ -49,7 +49,7 @@ mezclar_palabras("dog", "dinner") -> "dig donner"
 
 Escriba una función `long_max(lista)` que recibe una `lista` de 3 cadenas. La función debe retornar la longitud de la cadena más larga. Pista: use las funciones de las cadenas y no utilice lazos de repetición.
 ```
-long_max(["novia", "telemaco", "penelope"]) -> 6
+long_max(["novia", "telemaco", "penelope"]) -> 8
 long_max(["tesista", "calamitoso", "pesadez"]) -> 10
 long_max(["magallanes", "villafuerte", "zambrano"]) -> 11 
 ```
