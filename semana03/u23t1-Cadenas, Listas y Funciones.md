@@ -60,7 +60,7 @@ Escriba una función `producto_escalar(v1, v2)` que recibe dos listas. Cada list
 
 La función debe retornar el resultado del producto escalar entre los dos vectores. Use la siguiente fórmula:
 
-![Fórmula del producto escalar](images/f1_producto_escalar.png)
+![Fórmula del producto escalar](f1_producto_escalar.png)
 
 Ejemplo de la llamada a la función:
 
