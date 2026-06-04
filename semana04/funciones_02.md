@@ -2,7 +2,7 @@
 
 Escriba una función `transforma(s)` que reciba una cadena `s` y retorne una nueva cadena formada por la concatenación de los dos primeros caracteres y los dos últimos caracteres de la cadena.
 
-Si la cadena tiene menos de 2 caracteres, la función debe retornar una cadena vacía.
+Suponer que la cadena tiene al menos 2 caracteres.
 
 ### Recibe
 
