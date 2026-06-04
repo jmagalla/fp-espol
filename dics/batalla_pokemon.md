@@ -1,4 +1,4 @@
-# Ejercicio: Pokédex básica con diccionarios
+# Ejercicio: Batalla Pokemons diccionarios
 
 ## Objetivo general
 En este ejercicio se busca reforzar el uso de **listas**, **diccionarios** y **funciones** en Python. A partir de listas de cadenas, el estudiante deberá transformar la información en diccionarios y aplicar reglas simples para calcular el **puntaje efectivo** de un Pokémon frente a otro.
